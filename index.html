@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LandingPage</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./index.css" />
+    <!-- Merriweather font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Mulish font  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <div><img src="./assets/Logo.svg" alt="logo-header" /></div>
+      <ul>
+        <li>Why us?</li>
+        <li>Marketing Platform</li>
+        <li>Price</li>
+        <li>
+          <button>Sign Up, It’s Free</button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- main -->
+    <div class="landing">
+      <div class="landing-section1">
+        <p class="main-text">
+          We take care <span class="highlight">Marketing</span><br />
+          things
+        </p>
+        <button class="primary-btn">Pick a Plan</button>
+      </div>
+      <div class="img-div">
+        <img
+          src="./assets/Illustration.svg"
+          alt="landing-img"
+          style="height: auto; width: 100%"
+        />
+      </div>
+    </div>
+
+    <!-- carousel section -->
+    <div class="section">
+      <div class="blog-div">
+        <div class="dash"></div>
+        <span class="blog-text"> &nbsp;BLOG</span>
+      </div>
+
+      <div class="carousel-head">
+        <h1 class="carousel-heading">Explore Marketing Tips</h1>
+        <div>
+          <span id="slideLeft" class="arrow">&#8592;</span>
+          <span id="slideRight" class="arrow">&#8594;</span>
+        </div>
+      </div>
+
+      <!-- card deck -->
+      <div class="card-deck" id="card-deck"></div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+      <div class="footer-div1">
+        <img src="./assets/Logo.svg" alt="logo-footer" />
+        <p class="footer-text1">Terms & Condition</p>
+        <p class="footer-text1">Privacy Policy</p>
+      </div>
+
+      <div>
+        <p class="rights">® 2019 Company name. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- js script -->
+    <script src="./index.js"></script>
+  </body>
+</html>
